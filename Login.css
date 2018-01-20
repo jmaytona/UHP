@@ -1,5 +1,5 @@
 body.signin-body {
-    background-color: #e6f2ff;
+    background-color: lightgray;
     
 }
 .container.signin-container {
@@ -13,10 +13,42 @@ body.signin-body {
     -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
 }
 img.signin-img {
-    max-width: 30%;
+    max-width: 37%;
     border-radius: 50%;
     border: 2px solid black;
     padding: 2px;
     display: block;
     margin: auto;
 }
+
+form.signin-form {
+    max-width: 350px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.signin-button {
+    width: 100%;
+    background-color: black;
+    border-color: lightgray;
+    margin-bottom: .7rem;
+}
+
+/*button.signin-button:hover {
+    color: black;
+    background-color: white;
+    border-color: lightgray;
+}*/
+
+.create-account {
+    margin-top: .7rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
